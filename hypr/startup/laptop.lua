@@ -1,0 +1,6 @@
+hl.on("hyprland.start", function()
+    hl.exec_cmd("hypridle -c ~/.config/hypr/services/laptop/hypridle.conf")
+    hl.exec_cmd("gnome-keyring-daemon --start --components=pkcs11,secrets,ssh,gpg")
+    hl.exec_cmd("awww-daemon")
+    hl.exec_cmd("awww img \"$HOME/Pictures/Homescreen/Homescreen.png\"")
+end)

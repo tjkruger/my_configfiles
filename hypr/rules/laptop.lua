@@ -1,0 +1,11 @@
+-- ============================
+-- LAPTOP WINDOW RULES
+-- ============================
+
+-- TODO: add laptop-specific window rules here.
+-- Example:
+-- hl.window_rule({
+--     name = "app-opacity",
+--     match = { class = "AppName" },
+--     opacity = 1.0,
+-- })

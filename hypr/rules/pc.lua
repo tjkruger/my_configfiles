@@ -1,0 +1,11 @@
+-- ============================
+-- PC WINDOW RULES
+-- ============================
+
+-- TODO: add PC-specific window rules here.
+-- Example:
+-- hl.window_rule({
+--     name = "app-opacity",
+--     match = { class = "AppName" },
+--     opacity = 1.0,
+-- })

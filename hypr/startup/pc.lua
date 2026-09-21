@@ -1,0 +1,7 @@
+hl.on("hyprland.start", function()
+    hl.exec_cmd("eww daemon")
+    hl.exec_cmd("sleep 1 && eww open background_clock")
+    hl.exec_cmd("pkill openrgb")
+    hl.exec_cmd("openrgb --server")
+    hl.exec_cmd("sleep 2 && openrgb -p newred")
+end)
