@@ -12,6 +12,10 @@ hl.config({
         touchpad = {
             natural_scroll = false,
         },
+
+        tablet = {
+            output = "eDP-1",
+        },
     },
 })
 
@@ -20,6 +24,7 @@ hl.gesture({
     direction = "horizontal",
     action = "workspace",
 })
+
 
 -- Example per-device override:
 -- hl.device({

@@ -13,4 +13,6 @@ hl.bind(mainMod .. " + L", hl.dsp.exec_cmd("swaylock --screenshots --effect-blur
 hl.bind(mainMod .. " + N", hl.dsp.exec_cmd("mate-system-monitor"))
 hl.bind("XF86Tools", hl.dsp.exec_cmd("code ~/.config/hypr"))
 
+hl.bind(mainMod .. " + J", hl.dsp.exec_cmd("xournalpp"))
+
 -- TODO: if you want the lid-switch behavior to be stricter, add a dedicated event handler here.

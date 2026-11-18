@@ -8,4 +8,9 @@ hl.window_rule({ name = "confine-tagged", match = { tag = "confined" }, confine_
 hl.bind(mainMod .. "+ G", hl.dsp.window.tag({ tag = "confined" }))
 
 
+hl.window_rule({
+    fullscreen_state = "0 0",
+    match = { class = "kitty" },
+})
+
 return true
