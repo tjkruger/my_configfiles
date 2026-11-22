@@ -30,3 +30,6 @@ hl.bind(mainMod .. " + SHIFT + S", hl.dsp.exec_cmd("systemctl suspend"))
 
 hl.bind("ALT + Tab", hl.dsp.focus({ workspace = "e+1" }))
 hl.bind("ALT + SHIFT + Tab", hl.dsp.focus({ workspace = "e-1" }))
+
+hl.bind("SUPER + P", hl.dsp.exec_cmd("grimblast --notify copysave screen"))
+hl.bind("SUPER + SHIFT + P", hl.dsp.exec_cmd("grimblast --notify save area - | swappy -f -"))
