@@ -15,5 +15,5 @@ require("ui.decorations")
 require("ui.theme")
 require("keybinds.shared")
 require("startup.shared")
-require("machines.laptop")  -- turn on if used on laptop
---require("machines.pc")    -- turn on if used on pc
+--require("machines.laptop")  -- turn on if used on laptop
+require("machines.pc")    -- turn on if used on pc
