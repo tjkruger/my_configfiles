@@ -1,4 +1,4 @@
 require("monitors.pc")
-require("keybinds.pc.special")
+require("keybinds.special_pc")
 require("rules.pc")
 require("startup.pc")

@@ -1,5 +1,5 @@
 hl.on("hyprland.start", function()
-    hl.exec_cmd("hypridle -c ~/.config/hypr/services/laptop/hypridle.conf")
+    hl.exec_cmd("hypridle -c ~/.config/hypr/services/hypridle_laptop.conf")
     hl.exec_cmd("gnome-keyring-daemon --start --components=pkcs11,secrets,ssh,gpg")
     hl.exec_cmd([[sh -c 'awww-daemon & until awww query >/dev/null 2>&1; do sleep 0.1; done; awww img "$HOME/Pictures/Homescreen/Homescreen.png"']])
     hl.exec_cmd("~/.local/bin/wacom-pad.py")

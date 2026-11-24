@@ -1,4 +1,4 @@
 require("monitors.laptop")
-require("keybinds.laptop.special")
+require("keybinds.special_laptop")
 require("rules.laptop")
 require("startup.laptop")
