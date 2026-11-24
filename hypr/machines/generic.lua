@@ -1,0 +1,2 @@
+-- Unknown machine: shared configs are already loaded in hyprland.lua.
+-- Only machine-independent defaults go here.
